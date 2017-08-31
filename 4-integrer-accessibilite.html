@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>Intégrer l’accessibilité dans une structure - Guide pour décideurs</title>
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+  <link rel="stylesheet" href="css/styles.css" media="all">
+  <link rel="stylesheet" href="css/print.css" media="print">
+  <script type="text/javascript" src="highlight/highlight.pack.js"></script>
+  <link rel="stylesheet" href="highlight/styles/tomorrow-night-eighties.css" media="all">
+	<script>hljs.initHighlightingOnLoad();</script>
+</head>
+<body>
+
+<div class="main-header">
+	<div class="inside">
+		<ul class="skip-links">
+			<li><a href="#main">contenu</a></li>
+			<li><a href="#navigation">navigation</a></li>
+		</ul>
+		<header role="banner" class="header  clear" id="banner">
+			<h1 class="title">Accessibilité numérique et RGAA&nbsp;3&nbsp;: Guide pour décideurs</h1>
+		</header>
+
+		<nav role="navigation" class="gp-sommaire" id="navigation" aria-label="Sommaire du guide">
+			<button id="btnSommaire" aria-expanded="false">Sommaire</button>
+						<ul class="sommaire is-hidden" id="sommaireToggle">
+				<li><a href="index.html">Introduction</a></li>
+				<li>
+				<a href="1-accessibilite_numerique.html">1. Accessibilité numérique et handicap</a></li>
+				<li><a href="2-loi.html">2. Normes et réglementation</a></li>
+				<li><a href="3-rgaa.html">3. Le référentiel général d’accessibilité pour les administrations (RGAA 3)</a></li>
+				<li><a href="4-integrer-accessibilite.html">4. Intégrer l’accessibilité dans une structure</a></li>
+				<li><a href="5-utilisateur.html">5. L’utilisateur au centre des préoccupations</a></li>
+				<li><a href="synthese.html">Fiche synthétique</a></li>
+			</ul>
+		</nav>
+		<div class="github-link">
+			<p><a href="https://github.com/DISIC/guide-decideur">Contribuer</a>
+			<a class="pdfdown" title="Télécharger le Guide du décideur RGAA 3 (pdf, 373 ko)" href="https://github.com/DISIC/guide-decideur/pdf/guide-decideur.pdf">Télécharger</a></p>
+		</div>
+	</div>
+</div>
+
+<div id="wrapper">
+
+	<nav role="navigation" class="internav clear">
+		<ul>
+			<li><a class="prev" href="3-rgaa.html"><span aria-hidden="true"> &laquo; </span>Le référentiel général d’accessibilité pour les administrations (RGAA 3) </a></li>
+			<li><a class="next" href="5-utilisateur.html">L’utilisateur au centre des préoccupations <span aria-hidden="true"> &raquo; </span></a></li>
+		</ul>
+	</nav>
+
+	<main id="main" role="main">
+		<h1 class="fiche-title">Intégrer l’accessibilité dans une structure</h1>
+		<article class="article">
+		<h2>Un domaine transverse</h2>
+			<p>L’accessibilité numérique est un domaine transverse qui concerne toutes les personnes impliquées dans la création, la maintenance et l’utilisation des dispositifs numériques&nbsp;: décideurs, chefs de projet, graphistes, développeurs, producteurs de contenus.</p>
+			<p>Instaurer une politique d’accessibilité numérique efficace et pérenne nécessite donc la mise en place d’un véritable écosystème, de méthodes d’évaluation et de suivi rigoureuses et, parce que l’ensemble des métiers vont être engagés, d’efforts importants de sensibilisation et de formation.</p>
+		</article>
+		<article class="article">
+		<h2>Mettre en &oelig;uvre</h2>
+			<h3>Engagement de la direction</h3>
+			<p>La direction de l’entité publique, c’est-à-dire les personnes ayant la responsabilité suffisante pour réaliser les actions suivantes, doit&nbsp;:</p>
+			<ul>
+			<li>communiquer, au sein de l’organisme, sur l’importance de prendre en compte les règles d’accessibilité pour remplir sa mission de service public et pour satisfaire les exigences réglementaires et légales&nbsp;;</li>
+			<li>établir la politique d’accessibilité&nbsp;;</li>
+			<li>assurer que des objectifs de conformité sont définis&nbsp;;</li>
+			<li>suivre des indicateurs sur le niveau d’accessibilité&nbsp;;</li>
+			<li>assurer la disponibilité des ressources.</li>
+			</ul>
+
+			<h3>Obligation de formation</h3>
+			<p>L’accessibilité numérique est un domaine technique qui nécessite une formation.</p>
+			<p>L’article 6 du décret du 14 mai 2009 indique&nbsp;:</p>
+			<blockquote><p>«&nbsp;L’État, les collectivités territoriales et les établissements publics qui en dépendent incluent dans le contenu de la formation continue de leurs personnels intervenant sur les services de communication publique en ligne un enseignement théorique et pratique sur l’accessibilité des services de communication publique en ligne aux personnes handicapées et sur la conformité aux règles et standards nationaux et internationaux en cette matière.&nbsp;»</p></blockquote>
+			<p>Sans une formation précise et adaptée à leur profil métier, l’accessibilité ne peut être mise en &oelig;uvre par les agents concernés.</p>
+
+			<h3>Désignation d’un référent accessibilité</h3>
+			<p>La direction doit nommer un membre de l’encadrement de l’organisme en tant que «&nbsp;référent accessibilité&nbsp;». Ce référent, nonobstant d’autres responsabilités, doit avoir la responsabilité et l’autorité en particulier pour&nbsp;:</p>
+			<ul>
+				<li>assurer que les processus nécessaires à la prise en compte de l’accessibilité sont établis, mis en &oelig;uvre et entretenus&nbsp;;</li>
+				<li>rendre compte à la direction du niveau d’accessibilité et de tout besoin d’amélioration&nbsp;;</li>
+				<li>assurer que la sensibilisation aux exigences d’accessibilité dans tout l’organisme est encouragée&nbsp;;</li>
+				<li>être le point d’entrée unique sur les sujets d’accessibilité numérique.</li>
+			</ul>
+		</article>
+
+		<article class="article">
+			<h2>Contrôler et planifier</h2>
+			<h3>Audits d’accessibilité réguliers</h3>
+			<p>Seul un audit sur un échantillon représentatif de pages peut permettre de connaître le niveau de conformité au RGAA du site ou de l’application.</p>
+			<p>Cet audit est conduit sous la responsabilité du «&nbsp;référent accessibilité&nbsp;» de l’entité publique et doit se conformer aux points suivants&nbsp;:</p>
+			<ul>
+				<li>il est réalisé sur au moins une partie du périmètre du site, et sur un échantillon représentatif de <strong>l’ensemble du système d’information</strong>, selon une fréquence à définir&nbsp;;</li>
+				<li>il revient à l’entité de veiller à la fiabilité de sa déclaration par tous moyens (recours à un prestataire externe, formation d’experts internes, audits croisés&hellip;)&nbsp;;</li>
+				<li>il vise à produire un score de conformité pour les niveaux simple A et double A (AA) du RGAA sur un échantillon représentatif de pages web&nbsp;;</li>
+				<li>le résultat doit être remonté au minimum à la direction.</li>
+			</ul>
+			
+			<h3>Schéma pluriannuel d’accessibilité</h3>
+			<p>La loi République Numérique crée une nouvelle obligation avec la publication d’un schéma pluriannuel d’accessibilité associé à des plans d’actions annuels. Le schéma pluriannuel témoigne de l’engagement de la structure pour l’accessibilité, détermine les objectifs, décrit le périmètre concerné et les moyens mis en &oelig;uvre&nbsp;:</p>
+			
+			<ul>
+				<li>le schéma doit couvrir l’ensemble des sites concernés, sites publics, intranet, applications métier, applications mobiles&nbsp;;</li>
+				<li>la durée du schéma pluriannuel ne doit pas excéder une période de trois années au terme de laquelle l’ensemble des sites et applications concernés doit être conforme au RGAA&nbsp;;</li>
+				<li>il doit être accessible à partir de chaque site&nbsp;;</li>
+				<li>les plans d’action annuels détaillent les actions mises en &oelig;uvre pour rendre les sites conformes (audits, planification des corrections, formation du personnel, etc.)&nbsp;;</li>
+				<li>le schéma pluriannuel et les plans d’action doivent être mis à jour chaque fois que nécessaire.</li>
+			</ul>
+			<p>Le décret d’application pourrait apporter un certain nombre de précisions concernant sa mise en place.</p>
+			</article>
+
+			<article class="article">
+				<h2>Arbitrer</h2>
+				<h3>Dérogations du RGAA</h3>
+			<p>Le RGAA propose un régime de dérogation qui permet de prendre en compte les situations où il n’est pas possible de rendre des contenus accessibles.</p>
+			<p>Les dérogations sont&nbsp;:</p>
+			<ol>
+				<li><strong>les contenus fournis par un tiers</strong>&nbsp;: par exemple les contenus publiés par les utilisateurs du site, les contenus non contrôlés provenant de sources extérieures&nbsp;;</li>
+				<li><strong>l’archivage et la mise à disposition de contenus obsolètes</strong>&nbsp;: les contenus relevant de la mission de sauvegarde à titre patrimonial de l’Internet par les acteurs publics désignés par la loi peuvent faire l’objet d’une dérogation&nbsp;;</li>
+				<li><strong>Les contenus en téléchargement en nombre important</strong>&nbsp;: les contenus ayant plus de deux ans notamment.</li>
+			</ol>
+
+			<h3>Obligation d’aménagement raisonnable</h3>
+			<p>La Convention relative aux droits des personnes handicapées (CRDPH) des Nations Unies, en même temps qu’elle consacre l’accessibilité comme un droit humain et crée une obligation d’action pour inclure les personnes handicapées, précise que cette action doit consister en des «&nbsp;aménagements raisonnables&nbsp;».</p>
+			<p>La notion est définie à l’article 2 de la CRDPH comme suit&nbsp;:</p>
+			<blockquote><p>
+				«&nbsp;On entend par “aménagement raisonnable” les modifications et ajustements nécessaires et appropriés n’imposant pas de charge disproportionnée ou indue apportés, en fonction des besoins dans une situation donnée, pour assurer aux personnes handicapées la jouissance ou l’exercice, sur la base de l’égalité avec les autres, de tous les droits de l’homme et de toutes les libertés fondamentales&nbsp;».
+			</p></blockquote>
+			<p>Cela nécessite de pouvoir arbitrer lorsqu’une correction engage un volume de travail ou une charge budgétaire trop importants par rapport à l’impact réel sur l’utilisateur. Dans ce cas, le RGAA propose de déroger à ces contenus, si nécessaire au profit d’une méthode alternative permettant, <i>in fine</i>, à l’utilisateur d’accéder aux contenus concernés.</p>
+
+			<h3>Mesures à prendre lorsqu’un contenu est dérogé</h3>
+			<p>Les contenus non accessibles doivent être signalés à l’utilisateur sur la page d’aide et dans la déclaration de conformité pour qu’il soit informé de la proportion des pages concernées et de leur localisation dans les rubriques du site.</p>
+
+			<h3>Droit à la compensation</h3>
+			<p>Il est important de rappeler qu’en vertu de l’article 11 de la loi de février 2005&nbsp;:</p>
+			<blockquote>
+				<p>la personne handicapée a droit à la compensation des conséquences de son handicap quels que soient l’origine et la nature de sa déficience, son âge ou son mode de vie.</p>
+			</blockquote>
+			<p>De ce fait, chaque organisme a l’obligation de prendre les moyens nécessaires afin de donner accès, dans un délai raisonnable, aux informations et fonctionnalités recherchées par la personne handicapée, que le contenu fasse l’objet d’une dérogation ou non. La possibilité de demander un contenu alternatif accessible doit être offerte à l’utilisateur sur la page d’aide via un moyen de contact accessible (adresse électronique ou formulaire de contact).</p>
+			</article>
+	</main>
+
+	<footer id="footer" role="contentinfo" class="clear">
+		<h2>Licence d'utilisation</h2>
+		<p class="logo-smgap"><img src="img/modernisation-logo.jpg" alt=""></p>
+		<p>Ce document est la propri&#233;t&#233; du secr&#233;tariat g&#233;n&#233;ral &#224; la modernisation de l'action publique fran&#231;ais (SGMAP). Il est plac&#233; sous la <a href="https://www.etalab.gouv.fr/licence-ouverte-open-licence">licence ouverte 1.0 ou ult&#233;rieure</a>, &#233;quivalente &#224; une licence <i lang="en">Creative Commons BY</i>. Pour indiquer la paternit&#233;, ajouter un lien vers la version originale du document disponible sur le <a href="https://github.com/DISIC">compte <span lang="en">GitHub</span> de la DINSIC</a>.</p>
+	</footer>
+
+</div>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

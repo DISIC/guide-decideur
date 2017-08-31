@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>Le référentiel général d’accessibilité pour les administrations (RGAA 3) - Guide pour décideurs</title>
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+  <link rel="stylesheet" href="css/styles.css" media="all">
+  <link rel="stylesheet" href="css/print.css" media="print">
+  <script type="text/javascript" src="highlight/highlight.pack.js"></script>
+  <link rel="stylesheet" href="highlight/styles/tomorrow-night-eighties.css" media="all">
+	<script>hljs.initHighlightingOnLoad();</script>
+</head>
+<body>
+
+<div class="main-header">
+	<div class="inside">
+		<ul class="skip-links">
+			<li><a href="#main">contenu</a></li>
+			<li><a href="#navigation">navigation</a></li>
+		</ul>
+		<header role="banner" class="header  clear" id="banner">
+			<h1 class="title">Accessibilité numérique et RGAA&nbsp;3&nbsp;: Guide pour décideurs</h1>
+		</header>
+
+		<nav role="navigation" class="gp-sommaire" id="navigation" aria-label="Sommaire du guide">
+			<button id="btnSommaire" aria-expanded="false">Sommaire</button>
+						<ul class="sommaire is-hidden" id="sommaireToggle">
+				<li><a href="index.html">Introduction</a></li>
+				<li>
+				<a href="1-accessibilite_numerique.html">1. Accessibilité numérique et handicap</a></li>
+				<li><a href="2-loi.html">2. Normes et réglementation</a></li>
+				<li><a href="3-rgaa.html">3. Le référentiel général d’accessibilité pour les administrations (RGAA 3)</a></li>
+				<li><a href="4-integrer-accessibilite.html">4. Intégrer l’accessibilité dans une structure</a></li>
+				<li><a href="5-utilisateur.html">5. L’utilisateur au centre des préoccupations</a></li>
+				<li><a href="synthese.html">Fiche synthétique</a></li>
+			</ul>
+		</nav>
+		<div class="github-link">
+			<p><a href="https://github.com/DISIC/guide-decideur">Contribuer</a>
+			<a class="pdfdown" title="Télécharger le Guide du décideur RGAA 3 (pdf, 373 ko)" href="https://github.com/DISIC/guide-decideur/pdf/guide-decideur.pdf">Télécharger</a></p>
+		</div>
+	</div>
+</div>
+
+<div id="wrapper">
+
+	<nav role="navigation" class="internav clear">
+		<ul>
+			<li><a class="prev" href="2-loi.html"><span aria-hidden="true"> &laquo; </span>Normes et réglementation </a></li>
+			<li><a class="next" href="4-integrer-accessibilite.html">Intégrer l’accessibilité dans une structure <span aria-hidden="true"> &raquo; </span></a></li>
+		</ul>
+	</nav>
+
+	<main id="main" role="main">
+		<h1 class="fiche-title">Le référentiel général d’accessibilité pour les administrations (RGAA 3)</h1>
+		<article class="article">
+		<h2>Qu’est-ce que le RGAA&nbsp;?</h2>
+			<p>Le <a href="http://references.modernisation.gouv.fr/rgaa-accessibilite/">référentiel général d’accessibilité pour les administrations</a> a pour but d’encadrer l’accessibilité des contenus numériques et se base sur les normes internationales d’accessibilité, les <span lang="en">Web Content Accessibility Guidelines</span> (WCAG) 2.0.</p>
+			<p>Il s’agit d’un ensemble de documents administratifs et techniques, juridiquement opposables, composé&nbsp;:</p>
+			<ul><li>d’une introduction au RGAA qui définit la problématique et les enjeux liés à l’accessibilité numérique&nbsp;;</li>
+			<li>d’un guide d’accompagnement pour présenter le RGAA et mettre en &oelig;uvre son application&nbsp;;</li>
+			<li>d’un référentiel technique qui a été conçu comme un outil méthodologique opérationnel de vérification et de mesure de la conformité des WCAG 2.0.</li>
+			</ul>
+		</article>
+
+		<article class="article">
+			<h2>Obligation légale</h2>
+			<h3>Niveaux d’accessibilité</h3>
+			<p>Les WCAG définissent trois niveaux d’accessibilité, repris par le RGAA, qui prennent en compte à la fois la faisabilité et l’impact utilisateur&nbsp;:</p>
+			<ul>
+				<li>Niveau A&nbsp;: niveau d’accessibilité minimal&nbsp;;</li>
+				<li>Niveau double A (AA)&nbsp;: niveau d’accessibilité amélioré&nbsp;;</li>
+				<li>Niveau triple A (AAA)&nbsp;: niveau d’accessibilité adapté à certains contextes.</li>
+			</ul>
+			<p>Le niveau AA est le niveau recommandé par le W3C et les WCAG comme objectif de conformité<a href="#ftn1" id="body-ftn1"><sup>[1]</sup></a>. Il est effectivement rappelé par WCAG que&nbsp;:</p>
+			<blockquote>
+				<p>«&nbsp;il n’est pas recommandé de se fixer le niveau AAA comme objectif à l’échelle de sites entiers car il n’est pas possible de satisfaire à tous les critères de succès du niveau AAA pour certains contenus.&nbsp;»</p>
+				<cite>WCAG — Les exigences de conformité<a href="#ftn2" id="body-ftn2"><sup>[2]</sup></a></cite>
+			</blockquote>
+
+			<p>L’obligation légale européenne et française exige une conformité au niveau double A (AA).</p>
+			
+			<h3>Documents obligatoires</h3>
+			<p>Le RGAA exige, en plus de la mise en conformité niveau double A, de mettre à disposition deux documents&nbsp;: la déclaration de conformité et la page d’aide.</p>
+			<p>Note&nbsp;: le RGAA fournit en ressources des <a href="http://references.modernisation.gouv.fr/ressources#modeles_documents">modèles non normatifs</a> pour ces documents, vous êtes libres de les adapter en fonction de vos besoins. Néanmoins, ces documents doivent respecter un certain formalisme.</p>
+
+			<h4>Déclaration de conformité</h4>
+			<p>La déclaration de conformité<a href="#ftn3" id="body-ftn3"><sup>[3]</sup></a> est un document, engageant sur l’honneur le responsable du site, qui justifie du niveau de conformité RGAA atteint par le site.</p>
+
+			<h4>Page d'aide</h4>
+			<p>À destination des utilisateurs, rédigée dans un langage non technique, la page d’aide guide les utilisateurs dans l’utilisation du site ou de l’application. Cette page d'aide doit mentionner les coordonnées d'un contact au sein de l'administration en cas de difficulté et fournir les coordonnées du Défenseur des droits. On doit pouvoir y accéder depuis toutes les pages du site.</p>
+		</article>
+		<article class="footnote">
+				<ol>
+					<li id="ftn1"><a href="https://www.w3.org/Translations/WCAG20-fr/#conformance-reqs">WCAG 2.0 — Les exigences de conformité</a> (<a href="#body-ftn1">retour au texte</a>)</li>
+					<li id="ftn2"><a href="https://www.w3.org/Translations/WCAG20-fr/">Règles pour l’accessibilité des contenus Web (WCAG) 2.0 (traduction française agréée)</a> (<a href="#body-ftn2">retour au texte</a>)</li>
+					<li id="ftn3"><a href="http://references.modernisation.gouv.fr/rgaa-accessibilite/guide-accompagnement-RGAA.html#Declaration-de-conformite">4.2.5 Déclaration de conformité — Guide d’accompagnement du RGAA</a> (<a href="#body-ftn3">retour au texte</a>)</li>
+				</ol>
+			</article>
+	</main>
+
+	<footer id="footer" role="contentinfo" class="clear">
+		<h2>Licence d'utilisation</h2>
+		<p class="logo-smgap"><img src="img/modernisation-logo.jpg" alt=""></p>
+		<p>Ce document est la propri&#233;t&#233; du secr&#233;tariat g&#233;n&#233;ral &#224; la modernisation de l'action publique fran&#231;ais (SGMAP). Il est plac&#233; sous la <a href="https://www.etalab.gouv.fr/licence-ouverte-open-licence">licence ouverte 1.0 ou ult&#233;rieure</a>, &#233;quivalente &#224; une licence <i lang="en">Creative Commons BY</i>. Pour indiquer la paternit&#233;, ajouter un lien vers la version originale du document disponible sur le <a href="https://github.com/DISIC">compte <span lang="en">GitHub</span> de la DINSIC</a>.</p>
+	</footer>
+
+</div>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
