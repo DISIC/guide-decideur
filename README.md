@@ -8,4 +8,4 @@ Les ressources complémentaires sont des supports sans valeur réglementaire et 
 
 ## Consultation
 
-Vous pouvez [consulter ce guide en ligne](https://disic.github.io/guide-decideur/) ou le télécharger au [format ODT (37 ko)](export/guide_decideur.odt) ou [PDF (373 ko)](export/guide_decideur.pdf).
+Vous pouvez [consulter ce guide en ligne](https://disic.github.io/guide-decideur/) ou le télécharger au [format ODT (37 ko)](https://github.com/DISIC/guide-decideur/raw/master/export/guide_decideurs.odt) ou [PDF (373 ko)](https://github.com/DISIC/guide-decideur/raw/master/export/guide_decideurs.pdf).
